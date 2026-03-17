@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
 <title>Love Quiz</title>
 
 <style>
 body{
-margin-top:120px;
 font-family:Arial;
 text-align:center;
-background:#ffc2d1;
+margin-top:120px;
+background:#ffd6e0;
 }
+
+h1{color:#ff4d6d}
 
 button{
 padding:14px 24px;
@@ -30,17 +33,15 @@ cursor:pointer;
 
 <p>Who loves you the most?</p>
 
-<button onclick="correct()">Me ❤️</button>
-<button onclick="correct()">Me 😄</button>
-<button onclick="correct()">Me 🥺</button>
+<button onclick="go()">Me ❤️</button>
+<button onclick="go()">Me 😄</button>
+<button onclick="go()">Me 🥺</button>
 
 <script>
-
-function correct(){
+function go(){
 alert("Correct answer ❤️");
 window.location.href="forgive.html";
 }
-
 </script>
 
 </body>
